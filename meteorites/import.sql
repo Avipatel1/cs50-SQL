@@ -1,8 +1,3 @@
-
-
--- ALTER TABLE "temp" DROP COLUMN "nametype";
--- INSERT INTO "meteorites" ("id", "name", "class", "mass", "discovery", "year", "lat", "long")
--- SELECT "id", "name", "class", "mass", "discovery", "year", "lat", "long" FROM "temp";
 DELETE FROM "meteorites_temp"
 WHERE "nametype" = 'Relict';
 
